@@ -97,6 +97,7 @@ func main() {
 				return
 			} else if strings.Contains(v, greentag) {
 				fmt.Println(greentag)
+				return
 			}
 		}
 	}
